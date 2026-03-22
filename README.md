@@ -208,10 +208,26 @@ python test_speaker.py   # Test speaker identification
 
 This project demonstrates how audio analysis and machine learning can be used to enhance online learning by identifying learners and measuring their engagement.
 
----
 
-## 👩‍💻 Author
 
-* Your Name
+## 🚀 Improved Version (Speaker Clustering with Resemblyzer)
 
----
+In addition to the initial KNN-based speaker identification, the system has been enhanced using a pretrained model (Resemblyzer) to handle unknown speakers.
+
+### 🔍 Improvements:
+- Supports **unknown speakers**
+- Uses **voice embeddings instead of manual labels**
+- Applies **clustering (KMeans)** to group similar voices
+- More flexible for real-world scenarios
+
+### ⚙️ Updated Workflow:
+Video/Audio → Feature Extraction → Embeddings → Clustering → Speaker Groups → Most Interactive Speaker
+
+### 📊 Output Example:
+Speaker_0 → 15  
+Speaker_1 → 8  
+
+Most Interactive Speaker → Speaker_0
+
+### 💡 Note:
+This approach does not require predefined speaker labels and can generalize to unseen voices.
