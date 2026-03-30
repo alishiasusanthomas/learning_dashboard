@@ -1,0 +1,6 @@
+streamlit==1.40.2
+numpy==1.26.4
+scikit-learn==1.5.2
+librosa==0.10.2.post1
+moviepy==1.0.3
+resemblyzer==0.1.4

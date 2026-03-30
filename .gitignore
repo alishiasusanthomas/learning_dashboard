@@ -1,0 +1,7 @@
+data/
+__pycache__/
+*.pyc
+.env
+video_check_frames/
+github_push_tmp/
+learning_dashboard_clone/
